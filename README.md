@@ -8,20 +8,15 @@
    cd <repository_folder>
 ````
 
-2. **Create a virtual environment (optional but recommended):**
+2. **Create a virtual environment :**
 
    ```
    python -m venv venv
    source venv/bin/activate   # On Windows: venv\Scripts\activate
    ```
 
-3. **Install required dependencies:**
 
-   ```
-   pip install -r requirements.txt
-   ```
-
-4. **Prepare your dataset:**
+3. **Prepare your dataset:**
 
    * Place your CSV dataset file (e.g., `sales_data.csv`) in the project folder or update the data path in the code accordingly.
 
